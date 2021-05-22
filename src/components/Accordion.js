@@ -23,7 +23,6 @@ export const Accordion = ({ items }) => {
           </div>
         );
       })}
-      <p>{activeIndex}</p>
     </div>
   );
 };
