@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion } from "./Accordion";
+import { Search } from "./Search";
 
 const items = [
   {
@@ -19,7 +20,7 @@ const items = [
     content: "JSON.stringify() converts an object into a JSON text and saves that JSON text in a string.",
   },
   {
-    id: 3,
+    id: 6,
     title: " Mention what is the function used for encoding JSON in PHP?",
     content: "For encoding JSON in PHP, json_encode () function is used.  This function returns the JSON representation of a value on success or false on failure.",
   },
@@ -38,7 +39,8 @@ const items = [
 export const App = () => {
   return (
     <div>
-      <Accordion items={items} />
+      {/* <Accordion items={items} /> */}
+      <Search />
     </div>
   );
 };
