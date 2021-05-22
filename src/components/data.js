@@ -46,4 +46,19 @@ export const items = [
         value: 'black'
     }
   ]
+
+  export const languageOptions = [
+    {
+        label: 'Afrikaans',
+        value: 'af'
+    },
+    {
+      label: 'Arabic',
+      value: 'ar'
+  },
+  {
+      label: 'Hindi',
+      value: 'hi'
+  }
+]
   
