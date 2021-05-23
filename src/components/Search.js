@@ -5,8 +5,7 @@ export const Search = () => {
   const [term, setTerm] = useState("");
   const [results, setResults] = useState([]);
 
-  console.log(results);
-
+  
   useEffect(() => {
     const search = async () => {
       const { data } = await axios.get("http://en.wikipedia.org/w/api.php", {
@@ -24,7 +23,7 @@ export const Search = () => {
 
     if (term) {
       const timeoutId = setTimeout(() => search(), 1000);
-      return () => setTimeout(timeoutId)
+      return () => clearTimeout(timeoutId)
     }
   }, [term]);
 
