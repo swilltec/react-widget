@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# React-widget Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React-widget project is demo project used to practice react functional components. This project uses useState and useEffect to manage state and props. This project also consumed 3rd parties services such as Wikipedia search API aand Google translation API. Google translation API will only work if the project is ran on  [http://localhost:3000](http://localhost:3000)
+
+## App Functionality
+
+In this application, the main page displays a list of "shelves" (i.e. categories), each of which contains a number of books. The three shelves are:
+
+- Article search (Wikipedia API)
+- Text translation (Google API)
+- Custom routing
+
+
+## Hooks Used
+ - useState
+ - useEffect
+ - useRef
 
 ## Available Scripts
 
